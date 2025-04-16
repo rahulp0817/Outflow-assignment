@@ -129,6 +129,5 @@ POST /leads/import
 
 ---
 
-## ✨ Credits
-Built with ❤️ for OutFlo by Rahul Pradhan
+✨ Built with ❤️ for OutFlo by Rahul Pradhan
 
