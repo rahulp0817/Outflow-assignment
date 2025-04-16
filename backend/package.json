@@ -1,5 +1,5 @@
 {
-  "name": "scraping",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "puppeteer": "^24.6.1",
-    "scraping": "file:"
+    "openai": "^4.95.0",
+    "typescript": "^5.8.3"
   }
 }
