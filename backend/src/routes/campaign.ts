@@ -4,13 +4,11 @@ import { Request, Response } from 'express';
 
 const router = express.Router();
 
-// GET all campaigns
 router.get('/', async (req, res) => {
   const campaigns = await campaignModel.find({ status: { $ne: 'DELETED' } });
   res.json(campaigns);
 });
 
-// GET campaign by ID
 // @ts-ignore
 router.get('/:id', async (req: Request, res: Response) => {
   const campaign = await campaignModel.findById(req.params.id);

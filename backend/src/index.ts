@@ -16,7 +16,7 @@ app.use('/campaigns', campaign);
 app.use('/personalized-message', message);
 app.use('/leads', lead);
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 mongoose.connect(process.env.MONGO_URI || '', {}).then(() => {
   console.log('MongoDB connected');
