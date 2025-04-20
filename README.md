@@ -22,10 +22,10 @@ OutFlo-Assignment/
 
 
 ## 🧠 Features
-- Campaign CRUD (Create, Read, Update, Soft Delete)
+- Campaign CRUD (Create, Read, Update, Delete)
 - Personalized outreach message generation using AI
 - Dashboard for campaign management
-- Lead scraping from LinkedIn (bonus)
+- Lead scraping from LinkedIn
 - View all scraped leads in frontend UI
 
 ---
